@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: grid;
 }
 
 .App-logo {
@@ -35,4 +36,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer{
+  width: 100%;
+  position:absolute;
+  bottom: 0;
+  background-color: black;
+}
+
+.footerText{
+  color: white;
+}
+
+.linkGithub{
+  text-decoration: none;
 }
