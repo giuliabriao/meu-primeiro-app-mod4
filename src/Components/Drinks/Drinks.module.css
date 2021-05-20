@@ -1,0 +1,9 @@
+.drinksContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cardsImage{
+    width: 200px;
+    height: 200px;
+}

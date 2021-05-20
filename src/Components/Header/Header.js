@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import '../Header/Header'
+import styleHeader from '../Header/Header.module.css'
 
 export default class Header extends Component{
     render(){
         return(
-            <header className="App-header">
-                <h1 className="title-header">Clientes Magazine Giuliza</h1>
+            <header className={styleHeader.header}>
+                <h1 className={styleHeader.headerTitle}>{this.props.headerName}</h1>
             </header>
         )
     }
